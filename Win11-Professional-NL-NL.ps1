@@ -9,7 +9,7 @@ Write-Host  -ForegroundColor Green "Importing OSD PowerShell Module"
 Import-Module OSD -Force
 
 #Start OSDCloud ZTI the RIGHT way
-Write-Host  -ForegroundColor Green "Start AVO OSDCloud"
+Write-Host  -ForegroundColor Green "Starting JW Moeilijke installatie stick"
 Start-OSDCloud -OSVersion 'Windows 11' -OSBuild 25H2 -OSEdition Pro -OSLanguage en-us -OSLicense Retail -ZTI
 
 #Restart from WinPE
